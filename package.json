@@ -9,7 +9,6 @@
     "test": "ng test",
     "lint": "ng lint",
     "e2e": "ng e2e",
-    "postinstall": "ng build --aot --target=production"
   },
   "private": true,
   "dependencies": {
@@ -26,7 +25,7 @@
     "@angular/router": "^4.2.4",
     "core-js": "^2.4.1",
     "express": "^4.15.4",
-    "postinstall": "ng build --aot --target=production",
+    "postinstall": "ng build --aot -prod --target=production",
     "rxjs": "^5.4.2",
     "typescript": "~2.3.3",
     "ts-node": "~3.2.0",
