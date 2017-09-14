@@ -9,7 +9,7 @@ import { Meta, Title } from "@angular/platform-browser";
 export class AboutComponent implements OnInit {
 
   constructor(meta: Meta, title: Title) {
-    title.setTitle('hirely.me! freelance market place');
+    title.setTitle('About Hirely.me');
 
     meta.addTags([
       { name: 'author', content: 'About Hirely.me!'},
